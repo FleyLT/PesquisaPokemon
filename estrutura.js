@@ -19,8 +19,8 @@ getData().then(result => {
   console.log("Guardado na variável:", variavelJson);
 });
 
-getData().then(ditto => {
-  console.log("Nome do pokémon:", ditto.name);
+getData().then(pokemon => {
+  console.log("Nome do pokémon:", pokemon.name);
 });}catch(error){}
 }
 
